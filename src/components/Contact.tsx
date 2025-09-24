@@ -53,15 +53,37 @@ const Contact: React.FC = () => {
 
     setIsSubmitting(true);
     
-    // Simulate form submission
-    setTimeout(() => {
+    try {
+      // Prepare form data for Netlify
+      const formData = new URLSearchParams();
+      formData.append('form-name', 'contact');
+      formData.append('name', formData.name);
+      formData.append('email', formData.email);
+      formData.append('message', formData.message);
+
+      const response = await fetch('/', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded',
+        },
+        body: formData.toString(),
+      });
+
+      if (response.ok) {
+        setIsSubmitted(true);
+        setFormData({ name: '', email: '', message: '' });
+        
+        // Reset success message after 5 seconds
+        setTimeout(() => setIsSubmitted(false), 5000);
+      } else {
+        throw new Error('Form submission failed');
+      }
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      // You could add error state handling here if needed
+    } finally {
       setIsSubmitting(false);
-      setIsSubmitted(true);
-      setFormData({ name: '', email: '', message: '' });
-      
-      // Reset success message after 5 seconds
-      setTimeout(() => setIsSubmitted(false), 5000);
-    }, 2000);
+    }
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -106,6 +128,8 @@ const Contact: React.FC = () => {
             )}
 
             <form onSubmit={handleSubmit} className="space-y-6">
+              <input type="hidden" name="form-name" value="contact" />
+              
               {/* Name Field */}
               <div>
                 <label htmlFor="name" className="block text-sm font-semibold text-gray-900 mb-2">
