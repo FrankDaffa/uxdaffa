@@ -139,37 +139,33 @@ const CaseStudy: React.FC = () => {
           {/* Image Grid */}
           <div className="mb-16">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="aspect-video bg-gray-100 rounded-xl flex items-center justify-center">
-                <div className="text-center text-gray-400">
-                  <div className="w-16 h-16 mx-auto mb-3 bg-gray-200 rounded-lg flex items-center justify-center">
-                    <div className="w-8 h-8 bg-gray-300 rounded"></div>
-                  </div>
-                  <p className="text-sm font-medium">Homepage Design</p>
-                </div>
+              <div className="aspect-video rounded-xl overflow-hidden shadow-lg">
+                <img
+                  src="https://images.pexels.com/photos/4386431/pexels-photo-4386431.jpeg?auto=compress&cs=tinysrgb&w=800&h=450"
+                  alt="Homepage Design - Clean e-commerce layout"
+                  className="w-full h-full object-cover"
+                />
               </div>
-              <div className="aspect-video bg-gray-100 rounded-xl flex items-center justify-center">
-                <div className="text-center text-gray-400">
-                  <div className="w-16 h-16 mx-auto mb-3 bg-gray-200 rounded-lg flex items-center justify-center">
-                    <div className="w-8 h-8 bg-gray-300 rounded"></div>
-                  </div>
-                  <p className="text-sm font-medium">Product Detail Page</p>
-                </div>
+              <div className="aspect-video rounded-xl overflow-hidden shadow-lg">
+                <img
+                  src="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800&h=450"
+                  alt="Product Detail Page - Electronics showcase"
+                  className="w-full h-full object-cover"
+                />
               </div>
-              <div className="aspect-video bg-gray-100 rounded-xl flex items-center justify-center">
-                <div className="text-center text-gray-400">
-                  <div className="w-16 h-16 mx-auto mb-3 bg-gray-200 rounded-lg flex items-center justify-center">
-                    <div className="w-8 h-8 bg-gray-300 rounded"></div>
-                  </div>
-                  <p className="text-sm font-medium">Checkout Flow</p>
-                </div>
+              <div className="aspect-video rounded-xl overflow-hidden shadow-lg">
+                <img
+                  src="https://images.pexels.com/photos/4386370/pexels-photo-4386370.jpeg?auto=compress&cs=tinysrgb&w=800&h=450"
+                  alt="Checkout Flow - Mobile payment interface"
+                  className="w-full h-full object-cover"
+                />
               </div>
-              <div className="aspect-video bg-gray-100 rounded-xl flex items-center justify-center">
-                <div className="text-center text-gray-400">
-                  <div className="w-16 h-16 mx-auto mb-3 bg-gray-200 rounded-lg flex items-center justify-center">
-                    <div className="w-8 h-8 bg-gray-300 rounded"></div>
-                  </div>
-                  <p className="text-sm font-medium">Mobile Experience</p>
-                </div>
+              <div className="aspect-video rounded-xl overflow-hidden shadow-lg">
+                <img
+                  src="https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800&h=450"
+                  alt="Mobile Experience - Responsive design showcase"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </div>
