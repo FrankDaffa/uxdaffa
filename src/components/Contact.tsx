@@ -75,10 +75,10 @@ const Contact: React.FC = () => {
   };
 
   const socialLinks = [
-    { icon: <Mail className="w-5 h-5" />, href: 'mailto:hello@designer.com', label: 'Email' },
-    { icon: <Linkedin className="w-5 h-5" />, href: 'https://linkedin.com', label: 'LinkedIn' },
-    { icon: <Twitter className="w-5 h-5" />, href: 'https://twitter.com', label: 'Twitter' },
-    { icon: <Github className="w-5 h-5" />, href: 'https://github.com', label: 'GitHub' }
+    { icon: <Mail className="w-5 h-5" />, href: 'mailto:neon.provost.0y@icloud.com', label: 'Email' },
+    { icon: <Linkedin className="w-5 h-5" />, href: 'https://linkedin.com/frankdaffa', label: 'LinkedIn' },
+    //{ icon: <Twitter className="w-5 h-5" />, href: 'https://twitter.com', label: 'Twitter' },
+    { icon: <Github className="w-5 h-5" />, href: 'https://github.com/frankdaffa', label: 'GitHub' }
   ];
 
   return (
