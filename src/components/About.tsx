@@ -27,17 +27,14 @@ const About: React.FC = () => {
           {/* Image Column */}
           <div className="col-span-12 lg:col-span-5">
             <div className="relative">
-              {/* Professional Headshot Placeholder */}
-              <div className="aspect-[4/5] bg-gradient-to-br from-blue-100 to-blue-200 rounded-2xl shadow-xl relative overflow-hidden">
-                <div className="absolute inset-0 bg-blue-800/10"></div>
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-center text-blue-800">
-                    <div className="w-24 h-24 bg-blue-800 rounded-full mx-auto mb-4 flex items-center justify-center">
-                      <span className="text-2xl font-bold text-white">JD</span>
-                    </div>
-                    <p className="font-medium">Professional Headshot</p>
-                  </div>
-                </div>
+              {/* Professional Headshot */}
+              <div className="aspect-[4/5] rounded-2xl shadow-xl relative overflow-hidden">
+                <img
+                  src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=600&h=750"
+                  alt="Professional headshot of UX/UI Designer"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent"></div>
               </div>
 
               {/* Floating Stats */}
