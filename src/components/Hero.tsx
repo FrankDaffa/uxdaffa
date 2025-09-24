@@ -20,19 +20,13 @@ const Hero: React.FC = () => {
               <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-gray-900 leading-tight">
                 I design intuitive{' '}
                 <span className="text-blue-800">digital experiences</span>{' '}
-                that empower teams and users.
+                that empower business and users.
               </h1>
 
               {/* Subtext */}
               <div className="space-y-4">
                 <p className="text-xl sm:text-2xl text-gray-600 leading-relaxed max-w-3xl">
-                  Specializing in Human-Computer Interaction, agile UX methodologies, 
-                  and cross-functional team facilitation to create meaningful, 
-                  user-centered solutions.
-                </p>
-                <p className="text-lg text-gray-500 leading-relaxed max-w-2xl">
-                  From design sprints to user research, I bridge the gap between 
-                  business objectives and user needs through collaborative design processes.
+                  Specializing in Human-Computer Interaction and agile UX methodologies, I bridge the gap between business objectives and needs.
                 </p>
               </div>
 
