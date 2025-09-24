@@ -63,7 +63,7 @@ const CaseStudy: React.FC = () => {
             alt={project.imageAlt}
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
         </div>
 
         {/* Hero Content */}
@@ -73,16 +73,16 @@ const CaseStudy: React.FC = () => {
               {project.tags.map((tag) => (
                 <span
                   key={tag}
-                  className="px-3 py-1 text-sm font-medium text-white bg-white/20 backdrop-blur-sm rounded-full"
+                  className="px-3 py-1 text-sm font-medium text-white bg-black/40 backdrop-blur-sm rounded-full border border-white/20"
                 >
                   {tag}
                 </span>
               ))}
             </div>
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 drop-shadow-lg">
               {project.title}
             </h1>
-            <p className="text-xl text-white/90 leading-relaxed max-w-3xl">
+            <p className="text-lg sm:text-xl text-white leading-relaxed max-w-3xl drop-shadow-md">
               {project.description}
             </p>
           </div>
