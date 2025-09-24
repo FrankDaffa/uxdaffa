@@ -75,46 +75,50 @@ export const allProjects: Project[] = [
   {
     id: '2',
     title: 'Vitumark: Custom Checkout',
-    description: 'Streamlining the e-commerce experience with a localized checkout flow for Tanzanian markets.',
+    description: 'Building an e-commerce experience for Tanzania with localized payments, delivery, and mobile-first design.',
     tags: ['E-commerce', 'Localization', 'Conversion Optimization'],
     imageAlt: 'Mobile checkout interface with local payment methods',
     imageUrl: 'https://images.pexels.com/photos/4386431/pexels-photo-4386431.jpeg?auto=compress&cs=tinysrgb&w=800&h=450',
     category: 'featured',
     year: '2023',
-    client: 'Vitumark E-commerce',
-    duration: '4 months',
-    role: 'UX/UI Designer & Researcher',
-    overview: 'Vitumark needed a checkout experience tailored specifically for the Tanzanian market, considering local payment methods, cultural preferences, and mobile-first usage patterns.',
-    challenge: 'The existing checkout had a 68% abandonment rate, primarily due to unfamiliar payment methods, complex forms, and lack of trust indicators relevant to the local market.',
-    solution: 'Designed a culturally-informed checkout flow that integrated local payment methods like M-Pesa, simplified form fields, and included trust-building elements specific to Tanzanian e-commerce expectations.',
+    client: 'Frada Co. Ltd.',
+    duration: '6 months',
+    role: 'UX/UI Designer, E-Commerce Strategy, Research & Localization',
+    overview: 'Vitumark is an online electronics store in Tanzania, operated under Frada Co. Ltd. The platform focuses on accessible technology products such as audio devices, laptops, and storage media. I designed and built Vitumark with the goal of simplifying digital shopping for Tanzanian customers, while addressing local challenges in payments, logistics, and trust.',
+    challenge: 'Most global e-commerce solutions don\'t fully serve Tanzanian users due to: Limited local payment integration (mobile money being the dominant method), lack of delivery infrastructure adapted to buses/parcel services, complex checkout flows designed for markets with credit card dominance, and a gap in trust and accessibility for first-time online shoppers.',
+    solution: 'Created a custom checkout system with ClickPesa-powered payments for local mobile money, localized delivery using regional bus & parcel models, guest-friendly shopping without account requirements, and mobile-optimized design for smartphone-first experience.',
     results: [
-      'Reduced checkout abandonment from 68% to 34%',
-      'Increased mobile conversion rate by 156%',
-      'Improved customer satisfaction scores by 89%',
-      'Generated 23% increase in overall revenue'
+      'Frictionless shopping experience for Tanzanian users compared to competitors',
+      'Improved trust and accessibility through clear delivery and local payments',
+      'Successful launch with streamlined user experience',
+      'Foundation established for growth in the local market'
     ],
     process: [
       {
-        title: 'Market Research',
-        description: 'Conducted extensive research on Tanzanian e-commerce behaviors, payment preferences, and cultural considerations.'
+        title: 'Research & Insights',
+        description: 'Analyzed pain points of Tanzanian users in online shopping. Identified trust, payment flexibility, and simplicity as top priorities. Studied competitors (local and regional) to find gaps in usability and checkout design.',
+        image: 'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800&h=450'
       },
       {
-        title: 'User Journey Mapping',
-        description: 'Mapped the entire customer journey from product discovery to post-purchase, identifying key friction points.'
+        title: 'Information Architecture',
+        description: 'Designed a minimalist catalog structure with clear categories. Allowed shopping without account creation to lower entry barriers.',
+        image: 'https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800&h=450'
       },
       {
-        title: 'Localized Design',
-        description: 'Created designs that incorporated local payment methods, appropriate imagery, and culturally relevant trust signals.'
+        title: 'Checkout Experience Design',
+        description: 'Designed a custom checkout flow alongside Wix\'s native checkout, optimized for mobile money payments through ClickPesa integration, non-logged-in guest checkout, fewer fields with just essentials, and clear delivery expectations.',
+        image: 'https://images.pexels.com/photos/4386431/pexels-photo-4386431.jpeg?auto=compress&cs=tinysrgb&w=800&h=450'
       },
       {
-        title: 'Testing & Optimization',
-        description: 'Conducted A/B tests and user testing sessions with local users to validate and refine the design.'
+        title: 'Visual Design & Testing',
+        description: 'Created a clean, trustworthy brand identity with bold typography and mobile-first responsive design. Conducted pilot testing with Tanzanian users and iterated the checkout flow to reduce friction.',
+        image: 'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800&h=450'
       }
     ],
     testimonial: {
-      quote: "The new checkout process feels like it was made specifically for us. It's so much easier to complete purchases now.",
-      author: "James Mwangi",
-      position: "Local Customer"
+      quote: "Localization isn't just translation—it's about understanding payment habits, delivery norms, and trust factors. In emerging markets, simplicity builds adoption.",
+      author: "Frank Daffa",
+      position: "Lead Designer & Founder"
     }
   },
   {
