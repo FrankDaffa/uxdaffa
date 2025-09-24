@@ -56,7 +56,7 @@ const About: React.FC = () => {
                 </h2>
                 <div className="space-y-6 text-lg text-gray-600 leading-relaxed">
                   <p>
-                    I’m a UX/UI designer with a background in Human-Computer Interaction, passionate about creating digital experiences that bridge people and technology. My work spans enterprise software, e-commerce, and civic tech, always with a focus on clarity, usability, and impact.
+                    I’m Frank, a UX/UI designer with a background in Human-Computer Interaction, passionate about creating digital experiences that bridge people and technology. My work spans enterprise software, e-commerce, and civic tech, always with a focus on clarity, usability, and impact.
                   </p>
                   <p>
                     At Jedox, I design solutions that make planning and reporting more intuitive—ranging from a cross-platform mobile app and ESG Reporting tools to the Best Practice Accelerator and new canvas chart experiences. Most recently, I’ve been leading the UX for Dynatables, a feature that helps users analyze and plan data with greater flexibility.
