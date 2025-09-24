@@ -63,29 +63,49 @@ const CaseStudy: React.FC = () => {
             alt={project.imageAlt}
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
+          <div className="hidden lg:block absolute inset-0 bg-gradient-to-t from-black/50 via-black/20 to-transparent"></div>
         </div>
 
-        {/* Hero Content */}
-        <div className="absolute bottom-0 left-0 right-0 p-6 lg:p-8">
+        {/* Hero Content - Desktop Only */}
+        <div className="hidden lg:block absolute bottom-0 left-0 right-0 p-6 lg:p-8">
           <div className="max-w-4xl">
             <div className="flex flex-wrap gap-2 mb-4">
               {project.tags.map((tag) => (
                 <span
                   key={tag}
-                  className="px-3 py-1 text-sm font-medium text-white bg-black/40 backdrop-blur-sm rounded-full border border-white/20"
+                  className="px-3 py-1 text-sm font-medium text-white bg-white/20 backdrop-blur-sm rounded-full"
                 >
                   {tag}
                 </span>
               ))}
             </div>
-            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 drop-shadow-lg">
+            <h1 className="text-4xl lg:text-5xl font-bold text-white mb-4">
               {project.title}
             </h1>
-            <p className="text-lg sm:text-xl text-white leading-relaxed max-w-3xl drop-shadow-md">
+            <p className="text-xl text-white/90 leading-relaxed max-w-3xl">
               {project.description}
             </p>
           </div>
+        </div>
+
+        {/* Hero Content - Mobile Only */}
+        <div className="lg:hidden p-6 bg-white">
+          <div className="flex flex-wrap gap-2 mb-4">
+            {project.tags.map((tag) => (
+              <span
+                key={tag}
+                className="px-3 py-1 text-sm font-medium text-blue-800 bg-blue-50 rounded-full"
+              >
+                {tag}
+              </span>
+            ))}
+          </div>
+          <h1 className="text-3xl font-bold text-gray-900 mb-4">
+            {project.title}
+          </h1>
+          <p className="text-lg text-gray-600 leading-relaxed">
+            {project.description}
+          </p>
         </div>
       </div>
 
