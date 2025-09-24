@@ -50,9 +50,9 @@ const Footer: React.FC = () => {
           <div className="lg:col-span-1">
             <h4 className="text-lg font-semibold mb-4">Let's Connect</h4>
             <div className="space-y-2 text-gray-400">
-              <p>hello@designer.com</p>
+              <p>LinkedIn: @frankdaffa</p>
               <p>Available for freelance projects</p>
-              <p>Based in San Francisco, CA</p>
+              <p>Based in Stuttgart, DE</p>
             </div>
           </div>
         </div>
