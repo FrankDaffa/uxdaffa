@@ -136,6 +136,44 @@ const CaseStudy: React.FC = () => {
             </div>
           )}
 
+          {/* Image Grid */}
+          <div className="mb-16">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="aspect-video bg-gray-100 rounded-xl flex items-center justify-center">
+                <div className="text-center text-gray-400">
+                  <div className="w-16 h-16 mx-auto mb-3 bg-gray-200 rounded-lg flex items-center justify-center">
+                    <div className="w-8 h-8 bg-gray-300 rounded"></div>
+                  </div>
+                  <p className="text-sm font-medium">Homepage Design</p>
+                </div>
+              </div>
+              <div className="aspect-video bg-gray-100 rounded-xl flex items-center justify-center">
+                <div className="text-center text-gray-400">
+                  <div className="w-16 h-16 mx-auto mb-3 bg-gray-200 rounded-lg flex items-center justify-center">
+                    <div className="w-8 h-8 bg-gray-300 rounded"></div>
+                  </div>
+                  <p className="text-sm font-medium">Product Detail Page</p>
+                </div>
+              </div>
+              <div className="aspect-video bg-gray-100 rounded-xl flex items-center justify-center">
+                <div className="text-center text-gray-400">
+                  <div className="w-16 h-16 mx-auto mb-3 bg-gray-200 rounded-lg flex items-center justify-center">
+                    <div className="w-8 h-8 bg-gray-300 rounded"></div>
+                  </div>
+                  <p className="text-sm font-medium">Checkout Flow</p>
+                </div>
+              </div>
+              <div className="aspect-video bg-gray-100 rounded-xl flex items-center justify-center">
+                <div className="text-center text-gray-400">
+                  <div className="w-16 h-16 mx-auto mb-3 bg-gray-200 rounded-lg flex items-center justify-center">
+                    <div className="w-8 h-8 bg-gray-300 rounded"></div>
+                  </div>
+                  <p className="text-sm font-medium">Mobile Experience</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
           {/* Challenge */}
           {project.challenge && (
             <div className="mb-16">
