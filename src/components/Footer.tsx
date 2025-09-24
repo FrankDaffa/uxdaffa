@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <div className="text-2xl font-bold mb-4">Portfolio</div>
+            <div className="text-2xl font-bold mb-4">UXDaffa</div>
             <p className="text-gray-400 leading-relaxed">
               Creating intuitive digital experiences through user-centered design 
               and collaborative methodologies.
@@ -60,7 +60,7 @@ const Footer: React.FC = () => {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-gray-800 flex flex-col sm:flex-row justify-between items-center">
           <div className="text-gray-400 text-sm mb-4 sm:mb-0">
-            © {currentYear} UX/UI Designer Portfolio. All rights reserved.
+            © {currentYear} UXDaffa. All rights reserved.
           </div>
           
           <div className="flex items-center text-gray-400 text-sm">

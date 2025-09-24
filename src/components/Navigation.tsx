@@ -53,7 +53,7 @@ const Navigation: React.FC = () => {
               onClick={handleLogoClick}
               className="text-2xl font-bold text-gray-900 hover:text-blue-800 transition-colors duration-200"
             >
-              Portfolio
+              UXDaffa
             </button>
           </div>
 
