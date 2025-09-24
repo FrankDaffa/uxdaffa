@@ -30,8 +30,8 @@ const About: React.FC = () => {
               {/* Professional Headshot */}
               <div className="aspect-[4/5] rounded-2xl shadow-xl relative overflow-hidden">
                 <img
-                  src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=600&h=750"
-                  alt="Professional headshot of UX/UI Designer"
+                  src="/images/fd-headshot.jpg"
+                  alt="Professional headshot of Frank Daffa, UX/UI Designer"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent"></div>
