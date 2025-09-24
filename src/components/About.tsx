@@ -3,29 +3,19 @@ import { Award, BookOpen, Coffee, Globe } from 'lucide-react';
 
 const skills = [
   'Figma', 'Framer', 'Jira', 'Miro', 'Adobe Creative Suite', 'Sketch',
-  'InVision', 'Principle', 'After Effects', 'HTML/CSS', 'React', 'Vue.js'
+  'InVision', 'Wordpress', 'Vibe Coding', 'HTML/CSS'
 ];
 
 const highlights = [
   {
     icon: <Globe className="w-6 h-6" />,
     title: 'Global Experience',
-    description: '5+ years designing for diverse markets across 3 continents'
-  },
-  {
-    icon: <Award className="w-6 h-6" />,
-    title: 'Industry Recognition',
-    description: 'Featured in UX Design Awards and Design System showcases'
-  },
-  {
-    icon: <BookOpen className="w-6 h-6" />,
-    title: 'Thought Leadership',
-    description: 'Regular speaker at design conferences and UX meetups'
+    description: '5+ years designing for diverse markets across 2 continents'
   },
   {
     icon: <Coffee className="w-6 h-6" />,
-    title: 'Freelance Founder',
-    description: 'Successfully transitioned from in-house to independent practice'
+    title: 'Entrepreneur',
+    description: 'Successfully digitalized family business'
   }
 ];
 
@@ -69,20 +59,13 @@ const About: React.FC = () => {
                 </h2>
                 <div className="space-y-6 text-lg text-gray-600 leading-relaxed">
                   <p>
-                    My journey in UX design began as an in-house designer at a Fortune 500 
-                    company, where I discovered my passion for bridging the gap between 
-                    complex business requirements and intuitive user experiences.
+                    I’m a UX/UI designer with a background in Human-Computer Interaction, passionate about creating digital experiences that bridge people and technology. My work spans enterprise software, e-commerce, and civic tech, always with a focus on clarity, usability, and impact.
                   </p>
                   <p>
-                    After leading design initiatives that improved user engagement by 300% 
-                    and reduced support tickets by 60%, I made the transition to freelance 
-                    consulting to help more organizations unlock the power of user-centered design.
+                    At Jedox, I design solutions that make planning and reporting more intuitive—ranging from a cross-platform mobile app and ESG Reporting tools to the Best Practice Accelerator and new canvas chart experiences. Most recently, I’ve been leading the UX for Dynatables, a feature that helps users analyze and plan data with greater flexibility.
                   </p>
                   <p>
-                    Today, I specialize in facilitating design sprints, conducting user research, 
-                    and building design systems that scale. My approach combines rigorous research 
-                    methods with collaborative workshop techniques to ensure every stakeholder 
-                    is aligned around user needs.
+                    Earlier in my career, I contributed to civic tech projects at Democracy Lab and built a foundation in program management and communications through international development and investor network initiatives. These experiences continue to shape how I design with both users and stakeholders in mind.
                   </p>
                 </div>
               </div>
