@@ -74,7 +74,7 @@ export const allProjects: Project[] = [
   },
   {
     id: '2',
-    title: 'Vitumark: Tanzanian E-commerce Platform',
+    title: 'Vitumark: E-commerce Platform',
     description: 'Building an e-commerce experience for Tanzania with localized payments, delivery, and mobile-first design.',
     tags: ['E-commerce', 'Localization', 'Conversion Optimization'],
     imageAlt: 'Mobile checkout interface with local payment methods',
