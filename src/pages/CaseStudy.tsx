@@ -157,24 +157,29 @@ const CaseStudy: React.FC = () => {
           )}
 
           {/* Image Grid */}
-          <div className="mb-16">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="aspect-video rounded-xl overflow-hidden shadow-lg">
-                <img
-                  src="images/vm-image1.png"
-                  alt="Homepage Design - Clean e-commerce layout"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="aspect-video rounded-xl overflow-hidden shadow-lg">
-                <img
-                  src="images/vm-image2.png"
-                  alt="Product Detail Page - Electronics showcase"
-                  className="w-full h-full object-cover"
-                />
+          {/* Dynamic Image Grid - Only show if project has process images */}
+          {project.process && project.process.some(step => step.image) && (
+            <div className="mb-16">
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">Project Visuals</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {project.process.slice(0, 4).map((step, index) => (
+                  step.image && (
+                    <div key={index} className="aspect-video rounded-xl overflow-hidden shadow-lg">
+                      <img
+                        src={step.image}
+                        alt={`${step.title} - ${project.title}`}
+                        className="w-full h-full object-cover"
+                      />
+                      <div className="mt-3">
+                        <h4 className="font-semibold text-gray-900 text-sm">
+                          {step.title}
+                        </h4>
+                      </div>
+                    </div>
+                  )
+                ))}
               </div>
             </div>
-          </div>
 
           {/* Challenge */}
           {project.challenge && (
