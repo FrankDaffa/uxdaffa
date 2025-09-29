@@ -78,7 +78,7 @@ export const allProjects: Project[] = [
     description: 'Building an e-commerce experience for Tanzania with localized payments, delivery, and mobile-first design.',
     tags: ['E-commerce', 'Localization', 'Conversion Optimization'],
     imageAlt: 'Mobile checkout interface with local payment methods',
-    imageUrl: '/images/vm-image3.png',
+    imageUrl: '/images/vm-main-image.png',
     category: 'featured',
     year: '2024/2025',
     client: 'Safrada Co. Ltd.',
@@ -107,12 +107,12 @@ export const allProjects: Project[] = [
       {
         title: 'Checkout Experience Design',
         description: 'Designed a custom checkout flow alongside Wix\'s native checkout, optimized for mobile money payments through ClickPesa integration, non-logged-in guest checkout, fewer fields with just essentials, and clear delivery expectations.',
-        image: 'https://images.pexels.com/photos/4386431/pexels-photo-4386431.jpeg?auto=compress&cs=tinysrgb&w=800&h=450'
+        //image: 'https://images.pexels.com/photos/4386431/pexels-photo-4386431.jpeg?auto=compress&cs=tinysrgb&w=800&h=450'
       },
       {
         title: 'Visual Design & Testing',
         description: 'Created a clean, trustworthy brand identity with bold typography and mobile-first responsive design. Conducted pilot testing with Tanzanian users and iterated the checkout flow to reduce friction.',
-        image: 'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800&h=450'
+        //image: 'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800&h=450'
       }
     ],
     testimonial: {
