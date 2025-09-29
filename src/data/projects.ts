@@ -78,7 +78,7 @@ export const allProjects: Project[] = [
     description: 'Building an e-commerce experience for Tanzania with localized payments, delivery, and mobile-first design.',
     tags: ['E-commerce', 'Localization', 'Conversion Optimization'],
     imageAlt: 'Mobile checkout interface with local payment methods',
-    imageUrl: 'images/vm-main-image.png',
+    imageUrl: 'images/vm-image3.png',
     category: 'featured',
     year: '2024/2025',
     client: 'Safrada Co. Ltd.',
@@ -97,7 +97,7 @@ export const allProjects: Project[] = [
       {
         title: 'Research & Insights',
         description: 'Analyzed pain points of Tanzanian users in online shopping. Identified trust, payment flexibility, and simplicity as top priorities. Studied competitors (local and regional) to find gaps in usability and checkout design.',
-        image: 'images/vm-image1.png'
+        imageUrl: 'images/vm-image1.png'
       },
       {
         title: 'Information Architecture',
