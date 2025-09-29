@@ -161,29 +161,15 @@ const CaseStudy: React.FC = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="aspect-video rounded-xl overflow-hidden shadow-lg">
                 <img
-                  src="https://images.pexels.com/photos/4386431/pexels-photo-4386431.jpeg?auto=compress&cs=tinysrgb&w=800&h=450"
+                  src="images/vm-image1"
                   alt="Homepage Design - Clean e-commerce layout"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="aspect-video rounded-xl overflow-hidden shadow-lg">
                 <img
-                  src="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800&h=450"
+                  src="images/vm-image2"
                   alt="Product Detail Page - Electronics showcase"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="aspect-video rounded-xl overflow-hidden shadow-lg">
-                <img
-                  src="https://images.pexels.com/photos/4386370/pexels-photo-4386370.jpeg?auto=compress&cs=tinysrgb&w=800&h=450"
-                  alt="Checkout Flow - Mobile payment interface"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="aspect-video rounded-xl overflow-hidden shadow-lg">
-                <img
-                  src="https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800&h=450"
-                  alt="Mobile Experience - Responsive design showcase"
                   className="w-full h-full object-cover"
                 />
               </div>
