@@ -106,7 +106,7 @@ export const allProjects: Project[] = [
       },
       {
         title: 'Checkout Experience Design',
-        description: 'Designed a custom checkout flow alongside Wix\'s native checkout, optimized for mobile money payments through ClickPesa integration, non-logged-in guest checkout, fewer fields with just essentials, and clear delivery expectations.',
+        description: 'Designed a custom checkout flow optimized for mobile money payments through ClickPesa integration, non-logged-in guest checkout, fewer fields with just essentials, and clear delivery expectations.',
         //image: 'https://images.pexels.com/photos/4386431/pexels-photo-4386431.jpeg?auto=compress&cs=tinysrgb&w=800&h=450'
       },
       {
