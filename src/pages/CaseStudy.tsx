@@ -180,6 +180,7 @@ const CaseStudy: React.FC = () => {
                 ))}
               </div>
             </div>
+          )}
 
           {/* Challenge */}
           {project.challenge && (
