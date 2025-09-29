@@ -26,7 +26,7 @@ const Hero: React.FC = () => {
               {/* Subtext */}
               <div className="space-y-4">
                 <p className="text-xl sm:text-2xl text-gray-600 leading-relaxed max-w-3xl">
-                  Specializing in Human-Computer Interaction and agile UX methodologies, I bridge the gap between business objectives and needs.
+                  Specializing in Human-Computer Interaction and agile UX methodologies, I bridge the gap between business objectives and customer needs.
                 </p>
               </div>
 
