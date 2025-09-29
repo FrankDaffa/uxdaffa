@@ -161,14 +161,14 @@ const CaseStudy: React.FC = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="aspect-video rounded-xl overflow-hidden shadow-lg">
                 <img
-                  src="images/vm-image1"
+                  src="images/vm-image1.png"
                   alt="Homepage Design - Clean e-commerce layout"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="aspect-video rounded-xl overflow-hidden shadow-lg">
                 <img
-                  src="images/vm-image2"
+                  src="images/vm-image2.png"
                   alt="Product Detail Page - Electronics showcase"
                   className="w-full h-full object-cover"
                 />
